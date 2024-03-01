@@ -5,8 +5,9 @@ __pycache__/
 # Ignore log files
 *.log
 
-# Ignore SQLite database files
+# Ignore SQLite database files and .idea
 *.sqlite3
+.idea
 
 # Ignore media files (e.g. user-uploaded files)
 media/
@@ -15,7 +16,8 @@ media/
 static/
 
 # Ignore environment files (e.g. .env or .env.local)
-.env*
+venv
 
 # Ignore files of migrations
-**/migrations/
+authentication/migrations
+
