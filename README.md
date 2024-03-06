@@ -80,14 +80,14 @@ This is a Django project for a multi-user image gallery application with role-ba
     - `GET /api/gallery/images/{id}/`: Retrieve a specific image gallery.
     ![Image](tests/img/01.47.07.png)
     - `GET /api/gallery/images/{id}/delete/`: Delete a specific image.
-    ![Image](tests/img/01.42.47.png)
+    ![Image](tests/img/01.47.50.png)
     - `GET /api/gallery/images/{id}/update/`: Update a specific image.
     - `GET /api/gallery/view-images/`: List all image galleries for users with no full access.
     ![Image](tests/img/01.41.01.png)
     - `GET /api/gallery/view-images/{id}/`: Retrieve a specific image gallery for users with no full access.
     ![Image](tests/img/01.47.07.png)
     - `GET /api/gallery/view-images/{id}/delete/`: Delete a specific image gallery for users with no full access.
-    ![Image](tests/img/01.47.50.png)
+    ![Image](tests/img/01.42.47.png)
     - `GET /api/gallery/view-images/{id}/update/`: Update a specific image gallery for users with no full access.
     ![Image](tests/img/01.43.15.png)
 
