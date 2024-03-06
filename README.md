@@ -53,44 +53,43 @@ This is a Django project for a multi-user image gallery application with role-ba
 
 - **Token-based authentication**:
     - `POST /api/auth/token/`: Obtain a token by sending a username and password. Use the token for authentication in other requests.
-  ![Image](https://github.com/AITMLOUK98/multi-user-django-app/tree/main/tests/img/00.09.35.png)
+     ![Image](tests/img/1.49.19.png)
 - **Username/password authentication**:
     - `POST /api/auth/login/`: Log in using username and password.
      login as  Company User, or Subscriber
-     ![Image](tests/img/Screenshot 2024-03-06 at 00.14.17.png)
+     ![Image](tests/img/00.14.17.png)
      login as admin or Beta Player
-     ![Image](tests/img/Screenshot 2024-03-06 at 01.44.32.png)
-     login using token
-     ![Image](tests/img/Screenshot 2024-03-06 at 01.49.19.png)
+     ![Image](tests/img/01.44.32.png)
+
 - **Logout**:
     - `POST /api/auth/logout/`: Log out the current user.
-    ![Image](tests/img/Screenshot 2024-03-06 at 02.41.30.png)
+    ![Image](tests/img/02.41.30.png)
 - **User registration**:
     - `POST /api/auth/register/`: Register a new user.
     role: password dose not match
     ![Image](tests/img/00.09.35.png)
     - 
     role: Company User, or Subscriber
-    ![Image](tests/img/Screenshot 2024-03-06 at 00.10.08.png)
+    ![Image](tests/img/00.10.08.png)
     - 
     user already exists
-    ![Image](tests/img/Screenshot 2024-03-06 at 00.10.19.png)
+    ![Image](tests/img/00.10.19.png)
 - **Image Galleries**:
     - `GET /api/gallery/images/`: List all image galleries.
-    ![Image](tests/img/Screenshot 2024-03-06 at 01.45.39.png)
+    ![Image](tests/img/01.45.39.png)
     - `GET /api/gallery/images/{id}/`: Retrieve a specific image gallery.
-    ![Image](tests/img/Screenshot 2024-03-06 at 01.47.07.png)
+    ![Image](tests/img/01.47.07.png)
     - `GET /api/gallery/images/{id}/delete/`: Delete a specific image.
-    ![Image](tests/img/Screenshot 2024-03-06 at 01.42.47.png)
+    ![Image](tests/img/01.42.47.png)
     - `GET /api/gallery/images/{id}/update/`: Update a specific image.
     - `GET /api/gallery/view-images/`: List all image galleries for users with no full access.
-    ![Image](tests/img/Screenshot 2024-03-06 at 01.41.01.png)
+    ![Image](tests/img/01.41.01.png)
     - `GET /api/gallery/view-images/{id}/`: Retrieve a specific image gallery for users with no full access.
-    ![Image](tests/img/Screenshot 2024-03-06 at 01.47.07.png)
+    ![Image](tests/img/01.47.07.png)
     - `GET /api/gallery/view-images/{id}/delete/`: Delete a specific image gallery for users with no full access.
-    ![Image](tests/img/Screenshot 2024-03-06 at 01.47.50.png)
+    ![Image](tests/img/01.47.50.png)
     - `GET /api/gallery/view-images/{id}/update/`: Update a specific image gallery for users with no full access.
-    ![Image](tests/img/Screenshot 2024-03-06 at 01.43.15.png)
+    ![Image](tests/img/01.43.15.png)
 
 ## Authentication
 
