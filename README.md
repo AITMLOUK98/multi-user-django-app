@@ -10,7 +10,7 @@ This is a Django project for a multi-user image gallery application with role-ba
     ```
 2. Navigate to the project directory:
     ```bash
-    cd multi-user-image-gallery
+    cd multi-user-django-app
     ```
 3. Create a virtual environment (optional but recommended):
     ```bash
