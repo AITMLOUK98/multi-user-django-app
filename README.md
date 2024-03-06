@@ -6,7 +6,7 @@ This is a Django project for a multi-user image gallery application with role-ba
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/multi-user-image-gallery.git
+    git clone https://github.com/AITMLOUK98/multi-user-django-app.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -53,7 +53,7 @@ This is a Django project for a multi-user image gallery application with role-ba
 
 - **Token-based authentication**:
     - `POST /api/auth/token/`: Obtain a token by sending a username and password. Use the token for authentication in other requests.
-  ![Image](tests/img/Screenshot 2024-03-06 at 00.09.35.png)
+  ![Image](https://github.com/AITMLOUK98/multi-user-django-app/tree/main/tests/img/00.09.35.png)
 - **Username/password authentication**:
     - `POST /api/auth/login/`: Log in using username and password.
      login as  Company User, or Subscriber
@@ -68,7 +68,7 @@ This is a Django project for a multi-user image gallery application with role-ba
 - **User registration**:
     - `POST /api/auth/register/`: Register a new user.
     role: password dose not match
-    ![Image](tests/img/Screenshot 2024-03-06 at 00.09.35.png)
+    ![Image](tests/img/00.09.35.png)
     - 
     role: Company User, or Subscriber
     ![Image](tests/img/Screenshot 2024-03-06 at 00.10.08.png)
